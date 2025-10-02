@@ -4,7 +4,7 @@
   "type": "module",
   "version": "1.0.0",
   "scripts": {
-    "start": "y-websocket --port $PORT --host 0.0.0.0"
+    "start": "HOST=0.0.0.0 PORT=$PORT y-websocket"
   },
   "dependencies": {
     "y-websocket": "^1.5.4"
